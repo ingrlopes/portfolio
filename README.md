@@ -11,7 +11,7 @@ Este é um portfólio simples desenvolvido com HTML e CSS.
 
 1. Clone o repositório para o seu computador:
     ```sh
-    git clone https://github.com/seu-usuario/portfolio.git
+    git clone https://github.com/ingrlopes/portfolio.git
     ```
 
 2. Navegue até o diretório do projeto:
