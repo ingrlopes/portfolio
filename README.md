@@ -1,4 +1,4 @@
-# Portfolio
+# Portfólio
 
 Este é um portfólio simples desenvolvido com HTML e CSS.
 
@@ -16,10 +16,10 @@ Este é um portfólio simples desenvolvido com HTML e CSS.
 
 2. Navegue até o diretório do projeto:
     ```sh
-    cd seu-repositorio
+    cd portfolio
     ```
 
-3. Abra o arquivo [index.html](http://_vscodecontentref_/0) no seu navegador preferido.
+3. Abra o arquivo index.html no seu navegador preferido.
 
 ## Tecnologias Utilizadas
 
