@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-primaria: #22d4fd;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #272727;
+    --cor-quaternaria: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0 0 8%;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.link_menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.container {
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo {
+    font-size: 36px;
+    font-family: 'Krona One', serif;
+}
+
+.destaque {
+    color: #22d4fd;
+}
+
+.texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.botão {
+    border: 2px solid var(--cor-primaria);
+    width: 378px;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.botão:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.roda-pe {
+    padding: 32px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    background-color: var(--cor-terciaria);
+}
